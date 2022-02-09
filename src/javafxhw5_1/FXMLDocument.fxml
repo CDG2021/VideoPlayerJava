@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.media.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.media.MediaView?>
+
+<AnchorPane id="AnchorPane" fx:id="scene" prefHeight="553.0" prefWidth="647.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxhw5_1.FXMLDocumentController">
+   <children>
+      <MediaView fx:id="view" fitHeight="480.0" fitWidth="640.0" layoutX="3.0" layoutY="5.0" preserveRatio="false" />
+      <Button fx:id="open" layoutX="167.0" layoutY="500.0" mnemonicParsing="false" text="Open">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="play" layoutX="236.0" layoutY="500.0" mnemonicParsing="false" text="Play">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="pause" layoutX="294.0" layoutY="500.0" mnemonicParsing="false" text="Pause">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="stop" layoutX="363.0" layoutY="500.0" mnemonicParsing="false" text="Stop">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="mute" layoutX="425.0" layoutY="500.0" mnemonicParsing="false" text="Mute">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
